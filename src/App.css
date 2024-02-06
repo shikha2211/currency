@@ -1,5 +1,9 @@
 .App {
+
   text-align: center;
+  border: 1px solid lightgray;
+  border-radius:  5px;
+  width: 500px;
 }
 
 .App-logo {
@@ -36,3 +40,34 @@
     transform: rotate(360deg);
   }
 }
+
+.currencyFromTo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid lightgray;
+  border-radius:  5px; */
+}
+
+input[type=button]{
+  color: #fff;
+  border-radius: 5px;
+  width: 100px;
+  background-image: linear-gradient(to left, #f6d365, #fda085, #f6d365);
+  background-size: 200% auto;
+  /* transition: 0.5s; */
+  text-transform: uppercase;
+} :hover {
+  background-position: right center;
+  cursor:pointer;
+}
+
+
+.from {
+  margin: 20px;
+}
+
+.to {
+  margin: 20px;
+}
+
